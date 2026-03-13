@@ -16,7 +16,7 @@
       stock: 1,
       sizes: ["L"],
       images: [
-        "${base}/images/Tskjorte.webp",
+        base + "/images/Tskjorte.webp",
       ]
     },
     {
@@ -29,8 +29,8 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "${base}/images/BRUN_GENSER.webp",
-        "${base}/images/BrungenermLogo.webp",
+        base + "/images/BRUN_GENSER.webp",
+        base + "/images/BrungenermLogo.webp",
       ]
     },
     {
@@ -43,7 +43,7 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "${base}/images/BUKSE.webp",
+        base + "/images/BUKSE.webp",
       ]
     },
     {
@@ -56,8 +56,8 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "${base}/images/TruseiTre.webp",
-        "${base}/images/BRAGEMEDTRUSEPAA.webp",
+        base + "/images/TruseiTre.webp",
+        base + "/images/BRAGEMEDTRUSEPAA.webp",
       ]
     },
     {
@@ -70,7 +70,7 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "${base}/images/BrageLiggende.webp",
+        base + "/images/BrageLiggende.webp",
       ]
     }
   ];

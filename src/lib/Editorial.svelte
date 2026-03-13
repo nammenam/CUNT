@@ -11,47 +11,47 @@
   const galleryItems = [
     {
       title: "01. UTILITARIAN FORMS",
-      img: "${base}/images/Singlet_og_Tskjorte.webp", // <--- Put gallery-01.jpg in static/images/
+      img: base + "/images/Singlet_og_Tskjorte.webp", // <--- Put gallery-01.jpg in static/images/
       desc: "Garments designed for absolute utility. No excess. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       title: "02. TECHNICAL TEXTILES",
-      img: "${base}/images/Nikoline_paa_bakken.webp", // <--- Put gallery-02.jpg in static/images/
+      img: base + "/images/Nikoline_paa_bakken.webp", // <--- Put gallery-02.jpg in static/images/
       desc: "Synthetic weaves engineered for maximum durability. Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/DeminLook.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/DeminLook.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/CUNT_I_JAKKE.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/CUNT_I_JAKKE.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/BrungenermLogo.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/BrungenermLogo.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/Bragepaafanget.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/Bragepaafanget.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/BRAGEMEDTRUSEPAA.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/BRAGEMEDTRUSEPAA.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/BrageLiggende.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/BrageLiggende.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
       title: "03. NATURAL DYE PROCESS",
-      img: "${base}/images/Brage_Klemme_Closeup.webp", // <--- Put gallery-03.jpg in static/images/
+      img: base + "/images/Brage_Klemme_Closeup.webp", // <--- Put gallery-03.jpg in static/images/
       desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     }
   ];
