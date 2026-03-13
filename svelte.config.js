@@ -12,8 +12,12 @@ const config = {
       precompress: false,
       strict: true
     }),
+    // 1. THIS IS THE MAGIC BULLET! It stops GitHub from deleting your JS.
+    appDir: 'app', 
     paths: {
-      base: process.argv.includes('dev') ? '' : '/CUNT'
+      // 2. THIS MUST MATCH YOUR GITHUB REPO NAME EXACTLY! 
+      // If your repo URL is github.com/username/cunt, it must be lowercase '/cunt'
+      base: process.argv.includes('dev') ? '' : '/CUNT' 
     }
   }
 };
