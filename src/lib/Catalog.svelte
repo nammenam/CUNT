@@ -2,6 +2,7 @@
   import Product from '$lib/Product.svelte';
   import PsaBox from '$lib/PsaBox.svelte';
 
+  import { base } from '$app/paths';
   import MsgText from '$lib/MsgText.svelte';
 
   const products = [
@@ -15,7 +16,7 @@
       stock: 1,
       sizes: ["L"],
       images: [
-        "/images/Tskjorte.webp",
+        "${base}/images/Tskjorte.webp",
       ]
     },
     {
@@ -28,8 +29,8 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "/images/BRUN_GENSER.webp",
-        "/images/BrungenermLogo.webp",
+        "${base}/images/BRUN_GENSER.webp",
+        "${base}/images/BrungenermLogo.webp",
       ]
     },
     {
@@ -42,7 +43,7 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "/images/BUKSE.webp",
+        "${base}/images/BUKSE.webp",
       ]
     },
     {
@@ -55,8 +56,8 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "/images/TruseiTre.webp",
-        "/images/BRAGEMEDTRUSEPAA.webp",
+        "${base}/images/TruseiTre.webp",
+        "${base}/images/BRAGEMEDTRUSEPAA.webp",
       ]
     },
     {
@@ -69,7 +70,7 @@
       stock: 14,
       sizes: ["30", "32", "34", "36"],
       images: [
-        "/images/BrageLiggende.webp",
+        "${base}/images/BrageLiggende.webp",
       ]
     }
   ];
