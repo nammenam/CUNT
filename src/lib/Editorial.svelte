@@ -10,49 +10,44 @@
   // Add your real image filenames here!
   const galleryItems = [
     {
-      title: "01. UTILITARIAN FORMS",
+      title: "01.",
       img: base + "/images/Singlet_og_Tskjorte.webp", // <--- Put gallery-01.jpg in static/images/
-      desc: "Garments designed for absolute utility. No excess. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      title: "02. TECHNICAL TEXTILES",
-      img: base + "/images/Nikoline_paa_bakken.webp", // <--- Put gallery-02.jpg in static/images/
-      desc: "Synthetic weaves engineered for maximum durability. Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
-    },
-    {
-      title: "03. NATURAL DYE PROCESS",
+      title: "02.",
       img: base + "/images/DeminLook.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
-      title: "03. NATURAL DYE PROCESS",
+      title: "03.",
       img: base + "/images/CUNT_I_JAKKE.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
-      title: "03. NATURAL DYE PROCESS",
+      title: "04.",
       img: base + "/images/BrungenermLogo.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
     },
     {
-      title: "03. NATURAL DYE PROCESS",
-      img: base + "/images/Bragepaafanget.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
+      title: "05.",
+      img: base + "/images/Bragepafanget.webp", // <--- Put gallery-03.jpg in static/images/
     },
     {
-      title: "03. NATURAL DYE PROCESS",
-      img: base + "/images/BRAGEMEDTRUSEPAA.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
+      title: "06.",
+      img: base + "/images/Nikoline_pa_bakken.webp", // <--- Put gallery-02.jpg in static/images/
     },
     {
-      title: "03. NATURAL DYE PROCESS",
-      img: base + "/images/BrageLiggende.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
-    },
-    {
-      title: "03. NATURAL DYE PROCESS",
+      title: "09.",
       img: base + "/images/Brage_Klemme_Closeup.webp", // <--- Put gallery-03.jpg in static/images/
-      desc: "Pigments sourced directly from the earth. Unpredictable, unrepeatable, strictly organic."
+    },
+    {
+      title: "07.",
+      img: base + "/images/BRAGEMEDTRUSEPA.webp", // <--- Put gallery-03.jpg in static/images/
+    },
+    {
+      title: "08.",
+      img: base + "/images/BrageLiggende.webp", // <--- Put gallery-03.jpg in static/images/
+    },
+    {
+      title: "08.",
+      img: base + "/images/CUNT_I_JAKKE.webp", // <--- Put gallery-03.jpg in static/images/
     }
   ];
 </script>
@@ -69,7 +64,6 @@
       <img src={item.img} alt={item.title} class="inline-image" />
       <div class="text-block">
         <h3><strong>{item.title}</strong></h3>
-        <p>{item.desc}</p>
       </div>
     </div>
 
@@ -89,10 +83,10 @@
 
 <style>
   .editorial-section {
-    padding: 4rem 2rem;
+    padding: 8rem 2rem;
     background-color: transparent; 
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 
@@ -110,9 +104,9 @@
   }
 
   .editorial-block {
-    background: #e2e2e2;
+    background: #000;
     border: 4px solid #000;
-    padding: 1rem;
+    padding: 0rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -128,9 +122,10 @@
 
   .text-block h3 {
     margin-bottom: 0.5rem;
-    border-bottom: 2px solid #000;
     padding-bottom: 0.5rem;
+    padding-left: 1rem;
     display: inline-block;
+    color: #fff;
   }
 
   /* --- The Programmatic Runway (Exact match to Catalog) --- */
