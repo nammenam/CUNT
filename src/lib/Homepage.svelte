@@ -1,8 +1,11 @@
 <script>
-  import { base } from '$app/paths';
+  import { base } from "$app/paths";
 </script>
 
-<section class="home-hero" style="background-image: url('{base}/images/HovedbildeLiggende.webp');">
+<section
+  class="home-hero"
+  style="background-image: url('{base}/images/HovedbildeLiggende.webp');"
+>
   <div class="hero-content">
     <h1>CUNT</h1>
   </div>
@@ -12,26 +15,19 @@
   <div class="container">
     <div class="manifesto">
       <p>
-        If you have ever noticed lightened patches on your dark underwear, you are witnessing a silent, biological duty. This "bleaching" effect is a byproduct of the natural pH of a healthy vagina—typically between 3.8 and 4.5. This acidity is the body’s primary defense mechanism, a self-regulating cleaning service that flushes out bacteria and maintains equilibrium. 
+        CUNT was born from a conversation between friends. One daring to say
+        something they hadn't said to anyone before: “Have you ever gotten
+        orange patches in your dark underwear?” she asked. “Omg, yes!” she
+        answered. And there it was. A taboo broken down. And then came a wish to
+        break it down for every person with a vagina out there. The feeling of
+        understanding, and telling the whole world it is normal. In a
+        fashionable way of course. And here it is!
       </p>
-      
-      <p>
-        <strong>CUNT (Clothes Using Natural Tiedye)</strong> was born from this exact phenomenon. Rather than viewing this biological reality with shame or as a "stain" to be hidden, this collection uses it as an aesthetic foundation. We take the unpredictability of natural tie-dye to mimic the way a body interacts with fabric. Our garments are designed to honor the fact that a healthy body is an active, chemical, and changing environment.
-      </p>
+      <p>A clothing collection inspired by your underwear!</p>
 
       <div class="divider"></div>
 
-      <p>
-        Discharge is a sign of health, not a lack of hygiene. A vagina is self-cleaning, requiring no "feminine washes" or douches—warm water on the outside is the gold standard. Just as the internal walls are lined with rugae to expand and contract, our textiles are engineered for utility and movement. 
-      </p>
-      
-      <p>
-        From the "queef"—which is simply displaced air—to the natural, musky scent that shifts with your cycle, the collection celebrates these mechanical and biological processes. Variations in labia size, hair density, and cycle-driven texture are not flaws; they are the biological norm. Thrush is a standard hiccup, and "wetness" is a hormonal map. We should not be ashamed that our bodies are doing their duties.
-      </p>
-      
-      <p class="signature">
-        // BY CANESTEN
-      </p>
+      <p class="signature">// CANESTEN</p>
     </div>
   </div>
 </section>
@@ -40,7 +36,7 @@
   .home-hero {
     width: 100%;
     height: 100vh;
-    transform:translate(0px,1.25rem);
+    transform: translate(0px, 1.25rem);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -51,7 +47,7 @@
 
   .hero-content h1 {
     font-size: clamp(5rem, 15vw, 12rem);
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 900;
     color: #a1191b;
     transform: scaleY(0.7);
@@ -76,7 +72,7 @@
     text-align: justify;
     text-justify: inter-word; /* Distributes space between words like LaTeX */
     hyphens: auto; /* Required for proper justification on narrow screens */
-    font-family: 'Departure Mono', monospace; /* Keeping your persistent font */
+    font-family: "Departure Mono", monospace; /* Keeping your persistent font */
     line-height: 1.6;
     color: #000;
   }
